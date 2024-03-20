@@ -1,0 +1,16 @@
+<h1>My Blog Site</h1>
+<%- include("partials/header.ejs") %>
+
+
+
+
+<% if(locals.posts.length > 0){ %>
+  <% locals.posts.forEach(function(post){ %>
+    <div>
+      <h1> <%= post.title %> </h1>
+      <p> <%= post.body %> </p>
+    </div>
+  <% }); %>
+<% } else{ %>
+  <%- include("partials/empty.ejs") %>
+<% }; %>

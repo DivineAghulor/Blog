@@ -1,0 +1,16 @@
+node_modules/
+npm-debug.log
+*.log
+*.sublime-workspace
+*.sublime-project
+*.syntax
+*.cache
+*.sqlite
+*.sqlite3
+*.swp
+*.swo
+*.pid
+*.json
+*.lock
+*.env
+*.DS_Store
